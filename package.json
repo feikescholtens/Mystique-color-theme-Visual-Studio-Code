@@ -1,0 +1,21 @@
+{
+    "name": "mystique",
+    "displayName": "Mystique",
+    "description": "Mystique from Brackets but in Visual Studio Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Mystique",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Mystique-color-theme.json"
+            }
+        ]
+    }
+}
