@@ -23,7 +23,9 @@
 			"name": "Variables",
 			"scope": [
 				"variable",
-				"string constant.other.placeholder"
+				"string constant.other.placeholder",
+				"variable.other.constant.js",
+				"meta.definition.variable.js"
 			],
 			"settings": {
 				"foreground": "#bfc1c7"
