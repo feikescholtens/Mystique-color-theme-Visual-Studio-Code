@@ -88,6 +88,16 @@
 			}
 		},
 		{
+			"name": "Punc",
+			"scope": [
+				"punctuation.accessor.js",
+				"punctuation.separator.comma.js"
+			],
+			"settings": {
+				"foreground": "#cf36b6"
+			}
+		},
+		{
 			"name": "Control",
 			"scope": [
 				"keyword.control"
@@ -151,7 +161,8 @@
 		{
 			"name": "Logical operator",
 			"scope": [
-				"keyword.operator.logical"
+				"keyword.operator.logical",
+				"keyword.operator.arithmetic.js"
 			],
 			"settings": {
 				"foreground": "#e63e49"
@@ -162,7 +173,8 @@
 			"scope": [
 				"keyword.operator.comparison",
 				"keyword.operator.relational.js",
-				"keyword.operator.assignment"
+				"keyword.operator.assignment",
+				"keyword.operator.increment.js"
 			],
 			"settings": {
 				"foreground": "#e58f92"
@@ -180,7 +192,9 @@
 		{
 			"name": "Curly Brackets",
 			"scope": [
-				"punctuation.definition.block"
+				"punctuation.definition.block",
+				"punctuation.definition.dictionary.begin.json",
+				"punctuation.definition.dictionary.end.json"
 			],
 			"settings": {
 				"foreground": "#ff60c2c7"
@@ -215,6 +229,16 @@
 			"name": "Numeric",
 			"scope": [
 				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#FF6654"
+			}
+		},
+		{
+			"name": "Booleans",
+			"scope": [
+				"constant.language.boolean.true",
+				"constant.language.boolean.false"
 			],
 			"settings": {
 				"foreground": "#FF6654"
@@ -580,7 +604,10 @@
 		{
 			"name": "Variable other object",
 			"scope": [
-				"variable.other.object"
+				"variable.other.object",
+				"support.type.property-name.json.comments",
+				"punctuation.support.type.property-name.begin.json.comments",
+				"punctuation.support.type.property-name.end.json.comments"
 			],
 			"settings": {
 				"foreground": "#93c0f3"
