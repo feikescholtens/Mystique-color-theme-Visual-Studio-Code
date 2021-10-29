@@ -8,7 +8,18 @@
         "type": "git",
         "url": "https://github.com/feikescholtens/Mystique-color-theme-Visual-Studio-Code"
     },
-    "keywords": ["mystique", "brackets", "visual", "studio", "code", "Feike", "Scholtens", "Morris", "Allison", "III"],
+    "keywords": [
+        "mystique",
+        "brackets",
+        "visual",
+        "studio",
+        "code",
+        "Feike",
+        "Scholtens",
+        "Morris",
+        "Allison",
+        "III"
+    ],
     "engines": {
         "vscode": "^1.60.0"
     },
