@@ -1,8 +1,14 @@
 {
-    "name": "mystique",
-    "displayName": "Mystique",
-    "description": "Mystique from Brackets but in Visual Studio Code",
-    "version": "0.0.1",
+    "name": "Mystique-color-theme-Visual-Studio-Code",
+    "displayName": "Mystique color theme Visual Studio Code",
+    "description": "Mystique theme from Brackets, originally made by user 'Morris Allison III', but in Visual Studio Code with some modifications.    ",
+    "version": "1.0.0",
+    "publisher": "feikescholtens",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/feikescholtens/Mystique-color-theme-Visual-Studio-Code"
+    },
+    "keywords": ["mystique", "brackets", "visual", "studio", "code", "Feike", "Scholtens", "Morris", "Allison", "III"],
     "engines": {
         "vscode": "^1.60.0"
     },
@@ -10,12 +16,10 @@
         "Themes"
     ],
     "contributes": {
-        "themes": [
-            {
-                "label": "Mystique",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Mystique-color-theme.json"
-            }
-        ]
+        "themes": [{
+            "label": "Mystique",
+            "uiTheme": "vs-dark",
+            "path": "./themes/Mystique-color-theme-Visual-Studio-Code.json"
+        }]
     }
 }
